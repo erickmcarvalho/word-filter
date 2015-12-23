@@ -10,7 +10,7 @@ use WordFilter\Console\Commands\MainMenuCommand;
 use WordFilter\Console\Commands\CorrectorCommand;
 use WordFilter\Console\Commands\DictionaryManagerCommand;
 
-$application = new Application('Word Filter', '1.0.0');
+$application = new Application('Word Filter', '1.0.1');
 $application->add(new DictionaryManagerCommand());
 $application->add(new CorrectorCommand());
 $application->add(new MainMenuCommand());

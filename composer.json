@@ -1,0 +1,33 @@
+{
+    "name": "erickmcarvalho/word-filter",
+    "type": "project",
+    "description": "PHP CLI Program for changing and filter words at a dictionary.",
+    "keywords": ["program", "cli", "php", "words", "filter", "change", "corrector", "dictionary"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erick Carvalho",
+            "homepage": "http://www.erickcarvalho.com.br",
+            "email": "erick.mcarvalho@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-sqlite3": "*",
+        "ext-mbstring": "*",
+        "symfony/console": "2.8.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WordFilter\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

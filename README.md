@@ -19,8 +19,9 @@ Cada retorno das operações 1, 2 e 3, será consultado no dicionário e retorna
 
 ## Requisitos ##
 
-* PHP 5.4
+* PHP 5.5
 * SQLite 3
+* Mbstring
 * Composer
 
 **Testes:**
